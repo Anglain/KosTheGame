@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum StoneColor
 {
@@ -9,14 +10,22 @@ public enum StoneColor
 
 public class GameMaster : MonoBehaviour
 {
-	[HideInInspector] public static GameMaster gm;
-
+	[HideInInspector] public static List<ColorGetter> stones;
+	[HideInInspector] public LevelLoader ll;
+	public static GameMaster gm;
+	[Space(5)]
+	[Header("Brush graphics")]
 	public SpriteRenderer brushSr;
 	public Sprite lightBlueBrush;
 	public Sprite yellowBrush;
 	public Sprite redBrush;
 	public Sprite blueBrush;
 
+	[Space(10)]
+	[Header("Win canvas")]
+	public Canvas winCanvas;
+
+	public static int winCondition;
 	private StoneColor _currentBrushColor;
 	public StoneColor currentBrushColor
 	{
@@ -53,13 +62,32 @@ public class GameMaster : MonoBehaviour
 		if (gm == null) gm = this;
 		if (gm != this)	Destroy(this.gameObject);
 
-		Input.multiTouchEnabled = false;
-
 		if (brushSr == null) Debug.LogError("No SpriteRenderer component of the brush found attached to this gameObject! [GAME_MASTER.CS]");
+		if (winCanvas == null) Debug.LogError("No Canvas found attached to the winCanvas variable of this gameObject! [GAME_MASTER.CS]");
+		else winCanvas.enabled = false;
+
+		ll = GameObject.FindWithTag("LevelLoader").GetComponent<LevelLoader>();
+		if (ll == null) Debug.LogError("No LevelLoader object found in the scene! [GAME_MASTER.CS]");
 	}
 
 	void Start()
 	{
+		Input.multiTouchEnabled = false;
 		currentBrushColor = StoneColor.LightBlue;
+		winCondition = stones.Count + 1;
+	}
+
+	void Update()
+	{
+		if (winCondition == 0)
+		{
+			ColorPicker.pickersEnabled = false;
+			winCanvas.enabled = true;
+		}
+	}
+
+	public void ChangeScene(int sceneIndex)
+	{
+		ll.LoadScene(sceneIndex);
 	}
 }

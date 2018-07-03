@@ -46,20 +46,31 @@ public class ColorGetter : MonoBehaviour {
 				sr.sprite = stoneBlue;
 			}
 
-			if (_currentStoneColor == trueColor)
+			if (_currentStoneColor == trueColor && !blocked)
 			{
 				blocked = true;
+				GameMaster.winCondition--;
 			}
 		}
 	}
 
 	private void Awake()
 	{
+		if (GameMaster.stones != null)
+		{
+			GameMaster.stones.Add(this);
+		}
+		else
+		{
+			GameMaster.stones = new List<ColorGetter>();
+		}
+
 		sr = GetComponent<SpriteRenderer>();
 
 		if (sr == null) Debug.LogError("No SpriteRenderer component found attached to this gameObject! [COLOR_GETTER.CS]");
 
 		currentStoneColor = StoneColor.Default;
+		blocked = false;
 	}
 
 	void OnMouseDown()
