@@ -25,7 +25,21 @@ public class GameMaster : MonoBehaviour
 	[Header("Win canvas")]
 	public Canvas winCanvas;
 
-	public static int winCondition;
+	private static int _winCondition;
+	public static int winCondition
+	{
+		get { return _winCondition; }
+		set
+		{
+			if (value == 0)
+				AudioController.ac.PlayApplaud();
+			else
+				AudioController.ac.PlayStoneSuccessfull();
+
+			_winCondition = value;
+			Debug.Log(_winCondition);
+		}
+	}
 	private StoneColor _currentBrushColor;
 	public StoneColor currentBrushColor
 	{
@@ -64,7 +78,6 @@ public class GameMaster : MonoBehaviour
 
 		if (brushSr == null) Debug.LogError("No SpriteRenderer component of the brush found attached to this gameObject! [GAME_MASTER.CS]");
 		if (winCanvas == null) Debug.LogError("No Canvas found attached to the winCanvas variable of this gameObject! [GAME_MASTER.CS]");
-		else winCanvas.enabled = false;
 
 		ll = GameObject.FindWithTag("LevelLoader").GetComponent<LevelLoader>();
 		if (ll == null) Debug.LogError("No LevelLoader object found in the scene! [GAME_MASTER.CS]");
@@ -75,6 +88,7 @@ public class GameMaster : MonoBehaviour
 		Input.multiTouchEnabled = false;
 		currentBrushColor = StoneColor.LightBlue;
 		winCondition = stones.Count + 1;
+		winCanvas.enabled = false;
 	}
 
 	void Update()
@@ -83,6 +97,7 @@ public class GameMaster : MonoBehaviour
 		{
 			ColorPicker.pickersEnabled = false;
 			winCanvas.enabled = true;
+			stones = null;
 		}
 	}
 
