@@ -4,44 +4,67 @@ using UnityEngine;
 
 public class ColorGetter : MonoBehaviour {
 
-	[SerializeField] private ColorPicker cp;
-	[SerializeField] private Transform colorSprite;
+	public Sprite stoneSimple;
+	public Sprite stoneLightBlue;
+	public Sprite stoneYellow;
+	public Sprite stoneRed;
+	public Sprite stoneBlue;
+	public StoneColor trueColor;
 
-	private Color requiredColor;
-	private Collider2D col;
-	private bool active = true;
-
-	private void Awake() {
-		col = GetComponent<Collider2D>();
-
-		if (col == null) {
-			Debug.LogError("No Collider2D component found attached to this game object! [COLOR_GETTER.CS]");
-		}
-		
-		if (colorSprite == null) {
-			Debug.LogError("No color image found in children of this game object! [COLOR_GETTER.CS]");
-		} else {
-			colorSprite.gameObject.SetActive(false);
+	private bool blocked = false;
+	private SpriteRenderer sr;
+	private StoneColor _currentStoneColor;
+	private StoneColor currentStoneColor
+	{
+		get
+		{
+			return _currentStoneColor;
 		}
 
-		if (cp == null) {
-			Debug.LogError("No Color Picker component attached to the script! [COLOR_GETTER.CS]");
-		}
+		set
+		{
+			_currentStoneColor = value;
 
-		requiredColor = cp.pickerColor;
+			if (_currentStoneColor == StoneColor.Default)
+			{
+				sr.sprite = stoneSimple;
+			}
+			else if (_currentStoneColor == StoneColor.LightBlue)
+			{
+				sr.sprite = stoneLightBlue;
+			}
+			else if (_currentStoneColor == StoneColor.Yellow)
+			{
+				sr.sprite = stoneYellow;
+			}
+			else if (_currentStoneColor == StoneColor.Red)
+			{
+				sr.sprite = stoneRed;
+			}
+			else if (_currentStoneColor == StoneColor.Blue)
+			{
+				sr.sprite = stoneBlue;
+			}
+
+			if (_currentStoneColor == trueColor)
+			{
+				blocked = true;
+			}
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-		if (Input.GetButtonDown("Fire1") 
-			&& GameMaster.gm.touchColorState == requiredColor 
-			&& Physics2D.Raycast(mousePosition, mousePosition, 0).collider == col
-			&& active) {
+	private void Awake()
+	{
+		sr = GetComponent<SpriteRenderer>();
 
-			colorSprite.gameObject.SetActive(true);
-			active = false;
-		}
+		if (sr == null) Debug.LogError("No SpriteRenderer component found attached to this gameObject! [COLOR_GETTER.CS]");
+
+		currentStoneColor = StoneColor.Default;
+	}
+
+	void OnMouseDown()
+	{
+		if (currentStoneColor != GameMaster.gm.currentBrushColor && !blocked)
+			currentStoneColor = GameMaster.gm.currentBrushColor;
 	}
 }

@@ -1,9 +1,93 @@
 fileFormatVersion: 2
 guid: dc12aca9e4fe5f5469dbdc3bf4137662
-timeCreated: 1508097521
+timeCreated: 1530523641
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: lvl1_brush_lightblue_sprite
+    21300002: lvl1_brush_yellow_sprite
+    21300004: lvl1_brush_red_sprite
+    21300006: lvl1_background_sprite
+    21300008: lvl1_brush_blue_sprite
+    21300010: lvl1_small_triangle_stone_simple_sprite
+    21300012: lvl1_small_triangle_stone_lightblue_sprite
+    21300014: lvl1_small_triangle_stone_yellow_sprite
+    21300016: lvl1_small_triangle_stone_red_sprite
+    21300018: lvl1_small_triangle_stone_blue_sprite
+    21300020: lvl1_big_rectangle_stone_simple_sprite
+    21300022: lvl1_big_rectangle_stone_lightblue_sprite
+    21300024: lvl1_big_rectangle_stone_yellow_sprite
+    21300026: lvl1_big_rectangle_stone_red_sprite
+    21300028: lvl1_big_rectangle_stone_blue_sprite
+    21300030: lvl1_medium_round_stone_simple_sprite
+    21300032: lvl1_medium_round_stone_lightblue_sprite
+    21300034: lvl1_medium_round_stone_yellow_sprite
+    21300036: lvl1_medium_round_stone_red_sprite
+    21300038: lvl1_medium_round_stone_blue_sprite
+    21300040: lvl1_big_square_stone_simple_sprite
+    21300042: lvl1_big_square_stone_lightblue_sprite
+    21300044: lvl1_big_square_stone_yellow_sprite
+    21300046: lvl1_big_square_stone_red_sprite
+    21300048: lvl1_big_square_stone_blue_sprite
+    21300050: lvl1_medium3_round_stone_simple_sprite
+    21300052: lvl1_medium3_round_stone_lightblue_sprite
+    21300054: lvl1_medium3_round_stone_yellow_sprite
+    21300056: lvl1_medium3_round_stone_red_sprite
+    21300058: lvl1_medium3_round_stone_blue_sprite
+    21300060: lvl1_small_square_stone_simple_sprite
+    21300062: lvl1_small_square_stone_lightblue_sprite
+    21300064: lvl1_small_square_stone_yellow_sprite
+    21300066: lvl1_small_square_stone_red_sprite
+    21300068: lvl1_small_square_stone_blue_sprite
+    21300070: lvl1_brush_blue_down_sprite
+    21300072: lvl1_medium_triangle_stone_simple_sprite
+    21300074: lvl1_medium_triangle_stone_lightblue_sprite
+    21300076: lvl1_medium_triangle_stone_yellow_sprite
+    21300078: lvl1_medium_triangle_stone_red_sprite
+    21300080: lvl1_medium_triangle_stone_blue_sprite
+    21300082: lvl1_medium2_round_stone_simple_sprite
+    21300084: lvl1_medium2_round_stone_lightblue_sprite
+    21300086: lvl1_medium2_round_stone_yellow_sprite
+    21300088: lvl1_medium2_round_stone_red_sprite
+    21300090: lvl1_medium2_round_stone_blue_sprite
+    21300092: lvl1_small_round_stone_simple_sprite
+    21300094: lvl1_small_round_stone_lightblue_sprite
+    21300096: lvl1_small_round_stone_yellow_sprite
+    21300098: lvl1_small_round_stone_red_sprite
+    21300100: lvl1_small_round_stone_blue_sprite
+    21300102: lvl1_big_triangle_stone_simple_sprite
+    21300104: lvl1_big_triangle_stone_simple_down_sprite
+    21300106: lvl1_big_triangle_stone_simple_up_sprite
+    21300108: lvl1_big_triangle_stone_simple_sprite
+    21300110: lvl1_big_triangle_stone_simple_sprite
+    21300112: lvl1_big_triangle_stone_lightblue_sprite
+    21300114: lvl1_vorovashka_sprite
+    21300116: lvl1_vorovashka_head_sprite
+    21300118: lvl1_medium_rectangle_stone_simple_sprite
+    21300120: lvl1_medium_rectangle_stone_lightblue_sprite
+    21300122: lvl1_medium_rectangle_stone_yellow_sprite
+    21300124: lvl1_medium_rectangle_stone_red_sprite
+    21300126: lvl1_medium_rectangle_stone_blue_sprite
+    21300128: lvl1_big_round_stone_simple_sprite
+    21300130: lvl1_big_round_stone_lightblue_sprite
+    21300132: lvl1_big_round_stone_yellow_sprite
+    21300134: lvl1_big_round_stone_red_sprite
+    21300136: lvl1_big_round_stone_blue_sprite
+    21300138: lvl1_small_rectangle_stone_simple_sprite
+    21300140: lvl1_small_rectangle_stone_lightblue_sprite
+    21300142: lvl1_small_rectangle_stone_yellow_sprite
+    21300144: lvl1_small_rectangle_stone_red_sprite
+    21300146: lvl1_small_rectangle_stone_blue_sprite
+    21300148: lvl1_rabbitkos_sprite
+    21300150: lvl1_rabbitkos_legs_sprite
+    21300152: lvl1_withlove_sprite
+    21300154: lvl1_big_triangle_stone_yellow_sprite
+    21300156: lvl1_big_triangle_stone_red_sprite
+    21300158: lvl1_colorpicker_yellow_sprite
+    21300160: lvl1_colorpicker_red_sprite
+    21300162: lvl1_colorpicker_blue_sprite
+    21300164: lvl1_colorpicker_lightblue_sprite
+    21300166: lvl1_big_triangle_stone_blue_sprite
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -124,7 +208,1021 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lvl1_brush_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1826
+        width: 166
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_brush_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1826
+        width: 166
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_brush_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1826
+        width: 166
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_background_sprite
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_brush_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1826
+        width: 166
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_triangle_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1757
+        width: 99
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_triangle_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1757
+        width: 99
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_triangle_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1757
+        width: 99
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_triangle_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1757
+        width: 99
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_triangle_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1757
+        width: 99
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_rectangle_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1924
+        width: 218
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_rectangle_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1924
+        width: 218
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_rectangle_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1924
+        width: 218
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_rectangle_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1924
+        width: 218
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_rectangle_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1924
+        width: 218
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_round_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1626
+        width: 159
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_round_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1626
+        width: 159
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_round_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1626
+        width: 159
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_round_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1626
+        width: 159
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_round_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1626
+        width: 159
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_square_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1627
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_square_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1627
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_square_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1627
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_square_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1627
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_square_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1627
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium3_round_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1531
+        width: 138
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium3_round_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1531
+        width: 138
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium3_round_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1531
+        width: 138
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium3_round_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1531
+        width: 138
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium3_round_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1531
+        width: 138
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_square_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1549
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_square_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1549
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_square_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1549
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_square_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1549
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_square_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1549
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_triangle_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1408
+        width: 186
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_triangle_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1408
+        width: 186
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_triangle_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1408
+        width: 186
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_triangle_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1408
+        width: 186
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_triangle_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1408
+        width: 186
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium2_round_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1420
+        width: 140
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium2_round_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1420
+        width: 140
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium2_round_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1420
+        width: 140
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium2_round_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1420
+        width: 140
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium2_round_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1420
+        width: 140
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_round_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1328
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_round_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1328
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_round_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1328
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_round_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1328
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_round_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1328
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_triangle_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1765
+        width: 206
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_triangle_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1765
+        width: 206
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_triangle_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1765
+        width: 206
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_triangle_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1765
+        width: 206
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_vorovashka_sprite
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1107
+        width: 120
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_vorovashka_head_sprite
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1161
+        width: 120
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_rectangle_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1312
+        width: 209
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_rectangle_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1312
+        width: 209
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_rectangle_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1312
+        width: 209
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_rectangle_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1312
+        width: 209
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_medium_rectangle_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1312
+        width: 209
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_round_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1162
+        width: 184
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_round_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1162
+        width: 184
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_round_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1162
+        width: 184
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_round_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1162
+        width: 184
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_round_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1162
+        width: 184
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_rectangle_stone_simple_sprite
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1089
+        width: 158
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_rectangle_stone_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1089
+        width: 158
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_rectangle_stone_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1089
+        width: 158
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_rectangle_stone_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1089
+        width: 158
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_small_rectangle_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1089
+        width: 158
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_rabbitkos_sprite
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1213
+        width: 280
+        height: 835
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_colorpicker_yellow_sprite
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1088
+        width: 199
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_colorpicker_red_sprite
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1109
+        width: 169
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_colorpicker_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1108
+        width: 167
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_colorpicker_lightblue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1086
+        width: 220
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_big_triangle_stone_blue_sprite
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1765
+        width: 206
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lvl1_withlove_sprite
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 550
+        width: 124
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
